@@ -17,14 +17,14 @@ If the contributor leaves the affiliated organization, the contributor will lose
 
 Contributors must ensure that the following criteria is met before a pull request (PR) can be merged:
 
-1. All PR comments are resolved.
-2. Approvals are dismissed when a new commit is pushed.
-3. PR has a clear and concise title.
-4. PR has a clear description explaining the fix or feature. 
-5. The PR passes all status checks, including unit tests.
-6. The code changes must have `<summary>` blocks for all public and protected types and members.
-7. Author confirmed code changes were tested within the Unity Editor and on at least one XR device. This does not apply for changes to only documentation or pipeline scripts.
-8. The PR must have at least one approval from a contributor with the write role. Exceptional circumstances may require additional approvals.
+* All PR comments are resolved.
+* Approvals are dismissed when a new commit is pushed.
+* PR has a clear and concise title.
+* PR has a clear description explaining the fix or feature. 
+* The PR passes all status checks, including unit tests.
+* The code changes must have `<summary>` blocks for all public and protected types and members.
+* Author confirmed code changes were tested within the Unity Editor and on at least one XR device. This does not apply for changes to only documentation or pipeline scripts.
+* The PR must have at least one approval from a contributor that has the write role. Some circumstances may require additional approvals.
 
 If any of these criteria are not met, block the pull request by adding the "Do Not Merge" label, and kindly explain your reasoning for blocking.
 
@@ -32,10 +32,10 @@ If any of these criteria are not met, block the pull request by adding the "Do N
 
 For the best results contributor should also consider adding the following before a PR is merged:
 
-1. The PR's description should reference the issue that is being fixed or implemented.
-2. The PR should contain a new or updated unit tests that validate code changes.
-3. Visual updates should have screen shots or videos demonstrating the changes.
-4. The code changes have `<summary>` blocks for all types and members, even private and internal ones.
+* The PR's description should reference the issue that is being fixed or implemented.
+* The PR should contain new or updated unit tests that validate the new code changes.
+* Visual updates should have screen shots or videos demonstrating the changes.
+* The code changes should have `<summary>` blocks for all types and members, even private and internal ones.
 
 ### Design changes
 

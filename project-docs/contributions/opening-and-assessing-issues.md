@@ -4,12 +4,12 @@
 
 All contributors can open issues using the templates available for a [bug](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Bug&template=bug-report.md&title=), [document issue](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Documentation&template=documentation-issue.md&title=), [feature request](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Documentation&template=documentation-issue.md&title=), and [security vulnerability](https://github.com/microsoft/MixedRealityToolkit-Unity/security/advisories/new). Consider the following when opening a new issue:
 
-1. First check that there isn't already an issue tracking the problem or feature.
-2. Make sure titles are concise, but provide enough details to quickly provide a basic understanding of the issue.
-3. Make sure that descriptions provide as much as detail as possible to help contributors diagnosis the problem. Images or videos are a big plus for visual or UI issues.
-4. Make sure to provide steps that can consistently reproduce the problem or bug.
-5. Make sure to provide platform and version information. Such operation version and Unity version.
-6. Consider providing an example Unity project that has a isolated reproduction of the problem or bug. This is extremely helpful to contributors fixing the issue.
+* First check that there isn't already an issue tracking the problem or feature.
+* Create a title that is concise, but provides enough details to quickly give a basic understanding of the issue.
+* Write descriptions that provide as much as detail as possible to help contributors diagnosis the problem. Images or videos are a big plus for visual or UI bugs.
+* Make sure to provide steps that can consistently reproduce the problem or bug.
+* Make sure to provide platform and version information. Such as device type, OS version, and Unity version.
+* Consider providing an example Unity project that has a isolated reproduction of the bug. This is extremely helpful to contributors fixing the issue.
 
 ## Obtaining the role
 
@@ -30,11 +30,11 @@ During triage, contributors should look for issues with the "Needs: Triage" labe
 
 While looking at new issues, you should quickly determine the validity of the issue. Consider the following:
 
-1. If the issue requests help using MRTK3 within a particular application scenario, convert the issue to a discussion topic. Then answer the question if possible. If it is not possible, keep the "Needs: Triage" label or add a "Needs: Organization Attention" label if the organization responsible is known.
-2. If the issue doesn’t make appropriate use of an issue template, apply the "Needs: Template Info" label and request that the author provide the missing information in the issue.
-3. If the issue doesn’t mention the MRTK version that was used, apply the "Needs: Version Info" label and request that the author provide the version number.
-4. If the issue doesn’t mention the platforms that were used, apply the "Needs: Platform Info" label and request that the author provide the platform information. 
-5. If the issue doesn’t clearly describe steps to reproduce the issue, apply the "Needs: Repro Steps" label and request that the author provide the missing steps.
+* If the issue requests help using MRTK3 within a particular application scenario, convert the issue to a discussion topic. Then answer the question if possible. If it is not possible, keep the "Needs: Triage" label or add a "Needs: Organization Attention" label if the organization responsible is known.
+* If the issue doesn’t make appropriate use of an issue template, apply the "Needs: Template Info" label and request that the author provide the missing information in the issue.
+* If the issue doesn’t mention the MRTK version that was used, apply the "Needs: Version Info" label and request that the author provide the version number.
+* If the issue doesn’t mention the platforms that were used, apply the "Needs: Platform Info" label and request that the author provide the platform information. 
+* If the issue doesn’t clearly describe steps to reproduce the issue, apply the "Needs: Repro Steps" label and request that the author provide the missing steps.
 
 ### Invalid issues
 
