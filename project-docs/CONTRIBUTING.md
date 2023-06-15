@@ -2,23 +2,32 @@
 
 This project welcomes contributions, suggestions, and feedback. All contributions, suggestions, and feedback you submitted are accepted under the [Project's license](./LICENSE.md). You represent that if you do not own copyright in the code that you have the authority to submit it under the [Project's license](./LICENSE.md). All feedback, suggestions, or contributions are not confidential.
 
-**Maintainer's Requirements:**
-Note: you do not have to meet all the listed requirements, but must have achieved several.
+## Contributors
 
-Enabled 2FA on your GitHub account
-* The contributor has opened and successfully run medium to large PR’s in the past 6 months.
-* The contributor has participated in multiple code reviews of other PR’s, including those of other maintainers and contributors.
-* The contributor showed a consistent pattern of helpful, non-threatening, and friendly behavior towards other community members in the past.
-* The contributor is active on Traefik Community forums or other technical forums/boards such as K8S slack, Reddit, StackOverflow, hacker news.
-* Have read and accepted the contributor guidelines.
+Contributors have one for the following roles:
 
-**Submission processes:**
+* **Read** Read and clone repositories. Open and comment on issues and pull requests.
+* **Triage** Read permissions plus manage issues and pull requests.
+* **Write** Triage permissions plus read, clone and push to repositories.
 
+Contributors must abide by the Mixed Reality Toolkit's [code of conduct](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/CODE-OF-CONDUCT.md) and [trademark policy](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/TRADEMARKS.md). Contributors must also follow the procedures outlined in the following sections:
 
+* [Code Contributions](contributions/code-contributions.md)
+* [Opening and Assessing Issues](contributions/opening-and-assessing-issues.md)
+* [Merging Pull Requests](contributions/merging-pull-requests.md)
 
+## Maintainers
 
+Maintainers have the **maintain** role, which grants write permissions plus manage issues, pull requests and some repository settings Maintainers must must meet several of the following requirements:
 
-The Project abides by the Organization's [code of conduct](../org-docs/CODE-OF-CONDUCT.md) and [trademark policy](../org-docs/TRADEMARKS.md).
+* Must enable 2FA on your GitHub account
+* Must have read and accepted the contributor guidelines in the [Contributors](#contributors) section.
+* Must be part of the one of the Mixed Reality Toolkit's steering committee [affiliated organizations](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/STEERING-COMMITTEE.md), with only a maximum of two maintainers per affiliated organization.
+* Must have read and accepted the contributor guidelines.
+* Must have shown a consistent pattern of helpful, non-threatening, and friendly behavior towards other community members in the past.
+* Should have opened and successfully run medium to large PR’s in the past 6 months.
+* Should have participated in multiple code reviews of other PR’s, including those of other maintainers and contributors.
+* Should be active on Mixed Reality Toolkit community forums.
 
 ---
 Part of MVG-0.1-beta.
