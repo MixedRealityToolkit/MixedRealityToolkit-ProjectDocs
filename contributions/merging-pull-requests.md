@@ -23,14 +23,14 @@ Contributors must ensure that the following criteria is met before a pull reques
 * PR has a clear description explaining the fix or feature. 
 * The PR passes all status checks, including unit tests.
 * The code changes must have `<summary>` blocks for all public and protected types and members.
-* Author confirmed code changes were tested within the Unity Editor and on at least one XR device. This does not apply for changes to only documentation or pipeline scripts.
+* Author confirmed code changes were tested within the Unity Editor and on at least one XR device. This does not apply for changes that only change documentation or pipeline scripts.
 * The PR must have at least one approval from a contributor that has the write role. Some circumstances may require additional approvals.
 
 If any of these criteria are not met, block the pull request by adding the "Do Not Merge" label, and kindly explain your reasoning for blocking.
 
 ## Additional considerations
 
-For the best results contributor should also consider adding the following before a PR is merged:
+The pull request author should also consider adding the following before a PR is merged:
 
 * The PR's description should reference the issue that is being fixed or implemented.
 * The PR should contain new or updated unit tests that validate the new code changes.
@@ -39,11 +39,11 @@ For the best results contributor should also consider adding the following befor
 
 ### Design changes
 
-The visual design of the UX components must often go through some sort of design review before approved. As such, if a pull request contains an unavoidable change to the appearance of an existing visual component, a 3/4 majority of the project maintainers must approve the pull request.
+The visual design of UX components must often go through some sort of design review before approved. As such, if a pull request contains an visual change to an existing component, and an application can't easily undo or turn off the change, a 3/4 majority of the project maintainers must approve the pull request.
 
 ### Breaking changes
 
-A change is considered to be breaking if it alters an API signature or behavior in such a way to break applications built on a previous release of the MRTK. If a pull request introduces a breaking change, a 3/4 majority of the project maintainers must approve the pull request.
+A change is considered to be breaking if it alters an API signature or behavior in such a way to break applications built on a previous versions of the MRTK. If a pull request introduces a breaking change, a 3/4 majority of the project maintainers must approve the pull request.
 
 ### Build breaks and automation failures
 
