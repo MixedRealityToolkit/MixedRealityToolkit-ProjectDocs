@@ -2,7 +2,7 @@
 
 ## Obtaining the role
 
-Contributors with the **write** role can merge pull requests. A maintainer can assign this role to a contributor, as long as the contributor has demonstrated the following:
+Contributors with the **write** role can approve pull requests. A maintainer can assign this role to a contributor, as long as the contributor has demonstrated the following:
 
 * Must be part of the one of the Mixed Reality Toolkit's steering committee [affiliated organizations](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/STEERING-COMMITTEE.md).
 * Must have read and accepted the contributor guidelines.
