@@ -24,6 +24,7 @@ Maintainers have the **maintain** role, which grants write permissions plus mana
 * Must have read and accepted the contributor guidelines in the [Contributors](#contributors) section.
 * Must be part of the one of the Mixed Reality Toolkit's steering committee [affiliated organizations](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/STEERING-COMMITTEE.md), with only a maximum of two maintainers per affiliated organization.
 * Must have read and accepted the contributor guidelines.
+* Must be approved by a majority of the steering community.
 * Must have shown a consistent pattern of helpful, non-threatening, and friendly behavior towards other community members in the past.
 * Should have opened and successfully run medium to large PR’s in the past 6 months.
 * Should have participated in multiple code reviews of other PR’s, including those of other maintainers and contributors.
