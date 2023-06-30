@@ -14,7 +14,7 @@ Contributors must abide by the Mixed Reality Toolkit's [code of conduct](https:/
 
 * [Code Contributions](contributions/code-contributions.md)
 * [Opening and Assessing Issues](contributions/opening-and-assessing-issues.md)
-* [Merging Pull Requests](contributions/merging-pull-requests.md)
+* [Approving Pull Requests](contributions/merging-pull-requests.md)
 
 ## Maintainers
 
