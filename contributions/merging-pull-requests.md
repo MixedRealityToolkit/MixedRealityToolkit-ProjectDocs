@@ -1,4 +1,4 @@
-# Merging Pull Requests
+# Approving Pull Requests
 
 ## Obtaining the role
 
