@@ -8,7 +8,7 @@ All contributors can open issues using the templates available for a [bug](https
 * Create a title that is concise, but provides enough details to quickly give a basic understanding of the issue.
 * Write descriptions that provide as much as detail as possible to help contributors diagnosis the problem. Images or videos are a big plus for visual or UI bugs.
 * Make sure to provide steps that can consistently reproduce the problem or bug.
-* Make sure to provide platform and version information. Such as device type, OS version, and Unity version.
+* Make sure to provide platform and version information. Such as device type, operating system, and Unity version.
 * Consider providing an example Unity project that has a isolated reproduction of the bug. This is extremely helpful to contributors fixing the issue.
 
 ## Obtaining the role
@@ -31,7 +31,7 @@ During triage, contributors should look for issues with the "Needs: Triage" labe
 While looking at new issues, you should quickly determine the validity of the issue. Consider the following:
 
 * If the issue requests help using MRTK3 within a particular application scenario, convert the issue to a discussion topic. Then answer the question if possible. If it is not possible, keep the "Needs: Triage" label or add a "Needs: Organization Attention" label if the organization responsible is known.
-* If the issue doesn’t make appropriate use of an issue template, apply the "Needs: Template Info" label and request that the author provide the missing information in the issue.
+* If the issue doesn’t make appropriate use of an issue template, apply the "Needs: Template Info" label and request that the author provide the missing information.
 * If the issue doesn’t mention the MRTK version that was used, apply the "Needs: Version Info" label and request that the author provide the version number.
 * If the issue doesn’t mention the platforms that were used, apply the "Needs: Platform Info" label and request that the author provide the platform information. 
 * If the issue doesn’t clearly describe steps to reproduce the issue, apply the "Needs: Repro Steps" label and request that the author provide the missing steps.
@@ -76,11 +76,11 @@ It's also useful to apply labels to issues during triage. Consider adding the fo
 | Status: By Design | Described behavior that is expected. |
 | Status: Blocked | Development is blocked by another task or issue. |
 
-### Contributor assignments
+### Assigning issues
 
-If you know who can fix the issue, then assign the issue to the contributor or contributors. However only assign an issue to contributors who are able to act in a timely manner. The assigned contributors are responsible for resolving or reassigning the issue in a reasonable amount of time.
+If you know who can fix the issue, then assign the issue to the contributor or contributors. However only assign an issue to contributors who are able to act in a timely manner. The assigned contributors are responsible for resolving the issue in a reasonable amount of time.
 
-If it will take weeks for an individual to start acting on an issue, consider leaving the assignees field blank.
+If it will take weeks for an individual to start working on the issue, consider leaving the assignees field blank. An unassigned issue will signal that it is available for other organizations or individuals to work on.
 
 If a particular organization must resolve the issue and it’s unclear what individual will do the work, use the "Needs: [Org Name] Attention" label and provide a comment explaining your reasoning.
 
@@ -98,18 +98,18 @@ An issue should not be labeled with "Type: Release Blocker" if the issue was kno
 
 #### Is this a bug or feature?
 
-Issues that clearly describe functionality behaving differently than intended should be labeled as "Type: Bug." However, if the is issue is describing functionality that the MRTK was never designed for, consider adding the "Type: Feature Request" label.
+Issues that clearly describe functionality behaving differently than intended, should be labeled as "Type: Bug." However, if the is issue is describing functionality that the MRTK was never designed for, consider adding the "Type: Feature Request" label.
 
 #### Is there a known workaround?
 
-Clearly explain any known workarounds for the described issue. If a workaround is of low impact and results in no loss of functionality, the issue's severity should be considered low.
+Clearly explain any known workarounds for the described issue. If a workaround is of low impact and results in no loss of functionality, the issue's priority should be considered low.
 
 ### Milestone assignment
 
-Milestones should be used sparingly, since GitHub issues can only receive one milestone and maintainers may have differing priorities or goals. Therefore, only assign a milestone if the milestone has a clear dependency on the issue.
+Milestones should be used sparingly, since GitHub issues can only receive one milestone and maintainers may have differing priorities or goals. Only assign a milestone if the milestone has a clear dependency on the issue.
 
-Before new milestone can be created, the new milestones must be approved by a 3/4 majority of the project's maintainers.
+Before a new milestone can be created, the new milestones must be approved by a 3/4 majority of the project's maintainers.
 
 ### GitHub project assignments
 
-In place of assigning a milestone, consider assigning issues to a GitHub project or projects. An issue can have multiple project assignments, and each maintainer can manage their own GitHub projects and priorities within those projects.
+In place of assigning a milestone, consider assigning issues to a GitHub project or projects. An issue can have multiple project assignments, and each maintainer can manage their own GitHub projects and the +priorities within those projects.
