@@ -47,4 +47,4 @@ A change is considered to be breaking if it alters an API signature or behavior 
 
 ### Build breaks and automation failures
 
-If a merged pull request, even though passing status checks, breaks subsequent builds or automated tests. The author must fix the failed change as soon as possible, or risk having the change reverted.
+If a merged pull request breaks subsequent builds or automated tests, the author must fix the failed change as soon as possible, or risk having the change reverted.
