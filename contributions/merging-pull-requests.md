@@ -46,7 +46,7 @@ There may be times when a pull request contains changes that need further consid
 
 ### Design changes
 
-If a pull request contains visual changes that can't easily undone or turned off by an application, these pull requests must be blocked until the project maintainers review the change.
+If a pull request contains visual changes that can't be easily undone or turned off by an application developer, these pull requests must be blocked until the project maintainers review the change.
 
 ### Breaking changes
 
