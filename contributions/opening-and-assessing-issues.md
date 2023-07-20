@@ -40,7 +40,7 @@ While looking at new issues, you should quickly determine the validity of the is
 
 In some cases, an issue may not be a valid discussion topic, bug, or feature request. In such cases, add the "Status: Invalid" label, add a comment politely explaining your reasoning, and close the issue as not planned.
 
-### Improving issues
+## Improving issues
 
 After verifying that basic information is present, start parsing the content. Verify that the issue includes a clear description of the problem. If it does not, politely ask the author to provide additional feedback and add the "Needs: Author Feedback" label.
 
@@ -77,7 +77,7 @@ It's also useful to apply labels to issues during triage. Consider adding the fo
 | Status: Blocked | Development is blocked by another task or issue. |
 | Merge: Blocked | The pull request merge is blocked until project maintainers approve. |
 
-### Assigning issues
+## Assigning issues
 
 If you know who can fix the issue, then assign the issue to the contributor or contributors. However only assign an issue to contributors who are able to act in a timely manner. The assigned contributors are responsible for resolving the issue in a reasonable amount of time.
 
@@ -85,11 +85,11 @@ If it will take weeks for an individual to start working on the issue, consider 
 
 If a particular organization must resolve the issue and it’s unclear what individual will do the work, use the "Needs: [Org Name] Attention" label and provide a comment explaining your reasoning.
 
-### Determining impact
+## Determining impact
 
 Part of issue assessment is determining the issue's severity. When doing this, think about the following:
 
-#### Is this a potential release blocker?
+### Is this a potential release blocker?
 
 Release blocker issues should be addressed in a timely manner, before the next release. These issues could be a regression of previously released behavior, severely broken functionality, or cause some other critical failure in an application. An issue that has a clear workaround should not be labeled with "Type: Release Blocker."
 
@@ -97,15 +97,15 @@ Just because the issue causes an exception, or application crash, does not mean 
 
 An issue should not be labeled with "Type: Release Blocker" if the issue was knowingly shipped in a previous release.
 
-#### Is this a bug or feature?
+### Is this a bug or feature?
 
 Issues that clearly describe functionality behaving differently than intended, should be labeled as "Type: Bug." However, if the is issue is describing functionality that the MRTK was never designed for, consider adding the "Type: Feature Request" label.
 
-#### Is there a known workaround?
+### Is there a known workaround?
 
 Clearly explain any known workarounds for the described issue. If a workaround is of low impact and results in no loss of functionality, the issue's priority should be considered low.
 
-### Milestone assignment
+## Milestone assignment
 
 Milestones should be used sparingly, since GitHub issues can only receive one milestone and maintainers may have differing priorities or goals. Only assign a milestone if the milestone has a clear dependency on the issue.
 
@@ -113,4 +113,4 @@ Before a new milestone can be created, the new milestones must be approved by a 
 
 ### GitHub project assignments
 
-In place of assigning a milestone, consider assigning issues to a GitHub project or projects. An issue can have multiple project assignments, and each maintainer can manage their own GitHub projects and the +priorities within those projects.
+In place of assigning a milestone, consider assigning issues to a GitHub project or projects. An issue can have multiple project assignments, and each maintainer can manage their own GitHub projects and the priorities within those projects.

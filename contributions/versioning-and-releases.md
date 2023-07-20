@@ -1,4 +1,4 @@
-# Versioning and Release Branches
+# Versioning and Releases
 
 ## Semantic versioning
 
@@ -12,7 +12,7 @@ As a result of this change, there isn't a unified MRTK3 product version.
 
 To help identify specific packages and their versions, MRTK3 provides an "about" dialog that lists the relevant packages included in the project. To access this dialog, in Unity on the menu bar, select `Mixed Reality` > `MRTK3` > `About MRTK`.
 
-### Process of updating versions
+## Process of updating versions
 
 Package versioning is managed by the project maintainers. During a pull request into the `main` branch, maintainers should decide if package versions need to change. Maintainers should consider the following questions, and then if needed, request that the pull request author update package versions.
 
