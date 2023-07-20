@@ -1,8 +1,10 @@
 # Approving Pull Requests
 
+All changes to the `main` branch must be done through a pull request process to ensure that the changes are reviewed and approved.
+
 ## Obtaining the role
 
-Contributors with the **write** role can approve pull requests. A maintainer can assign this role to a contributor, as long as the contributor has demonstrated the following:
+Contributors with the **write** GitHub role can approve pull requests. A maintainer can assign this role to a contributor, as long as the contributor has demonstrated the following:
 
 * Must be part of the one of the Mixed Reality Toolkit's steering committee [affiliated organizations](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/STEERING-COMMITTEE.md).
 * Must have read and accepted the contributor guidelines.
@@ -11,17 +13,17 @@ Contributors with the **write** role can approve pull requests. A maintainer can
 * Should have participated in multiple code reviews of other PR’s, including those of other maintainers and contributors.
 * Should be active on Mixed Reality Toolkit community forums.
 
-If the contributor leaves the affiliated organization, the contributor will lose the **write** role.
+If the contributor leaves the affiliated organization, the contributor will lose the **write** GitHub role.
 
 ## Basic validation
 
-Contributors must ensure that the following criteria is met before a pull request (PR) can be merged:
+Contributors must ensure that the following criteria are met before a pull request (PR) can be merged:
 
 * Pull request approvals are dismissed when a new commit is pushed.
 * All pull request feedback and change requests are resolved.
 * The pull request has a clear and concise title, and a detailed description explaining the changes.
 * All status checks, including unit tests, pass successfully for the pull request.
-* Code changes must have `<summary>` blocks for all public and protected types and members.
+* Code changes must have XML documentation text (i.e.`<summary>`) for all public visible types and members. See [Compiler Warning (level 4) CS1591](https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-messages/cs1591) for more details.
 * The pull request author confirmed code changes were tested within the Unity Editor and on at least one XR device.
 * The pull request must have at least one approval from an assigned code owner. Some circumstances may require additional approvals.
 
@@ -46,12 +48,12 @@ There may be times when a pull request contains changes that need further consid
 
 ### Design changes
 
-If a pull request contains visual changes that can't be easily undone or turned off by an application developer, these pull requests must be blocked until the project maintainers review the change.
+If a pull request contains visual changes to UI controls that can't be easily undone or turned off by an application developer, these pull requests must be blocked until the project maintainers review the change. Mark these changes with the "Type: Design Change" label.
 
 ### Breaking changes
 
-A change is considered to be breaking if it contains incompatible API and behavior changes, such that it will break applications built on a previous released versions of the MRTK package. If a pull request introduces a breaking change, these pull requests must be blocked.
+A change is considered to be breaking if it contains incompatible API or behavior changes, such that it will break applications built on a previous released versions of the MRTK package. If a pull request introduces a breaking change, these pull requests must be blocked. Also, mark these changes with the "Type: Breaking Change" label.
 
 ### Unblocking a pull request
 
-Only project maintainers can unblock a pull request, and remove the "Merge: Blocked" label. To unblock a pull request, one maintainer from each affiliated organization must approve the pull request. Once this occurs, the "Merge: Blocked" label can be removed.
+Only project maintainers can unblock a pull request, and remove the "Merge: Blocked" label. To unblock a pull request, one maintainer from each affiliated organization must approve the pull request. Once this occurs, the "Merge: Blocked" label can be removed, and pull request completed.

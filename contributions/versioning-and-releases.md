@@ -36,9 +36,9 @@ A majority of project maintainers must agree to release a Mixed Reality Toolkit 
 
 1. Verify that the package is in stable condition.
 2. Create release notes using [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
-3. Create UPM package for the commit being released.
-4. Create ZIP file containing source code being released.
-5. Add a `git` tag the commit being released, following the format [package-postfix]-vMAJOR.MINOR.PATCH. For example, core-v3.0.1 or input-v3.2.0.
+3. Create UPM package.
+4. Create ZIP file containing source code.
+5. Add a `git` tag to the commit being released, following the format [package-postfix]-vMAJOR.MINOR.PATCH. For example, core-v3.0.1 or input-v3.2.0.
 6. The release notes, UPM package, and source code are then posted under project's [releases page](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases).
 
 This process only needs to be applied when releasing on the project's [releases](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases). This process does not limit the ability of releasing versions MRTK package via other mechanism outside of this repository. Any affiliate organizations can build and/or create release packages using their own mechanisms.
