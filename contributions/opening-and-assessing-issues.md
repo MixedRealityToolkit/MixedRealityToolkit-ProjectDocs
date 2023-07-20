@@ -75,6 +75,7 @@ It's also useful to apply labels to issues during triage. Consider adding the fo
 | Status: Invalid | Not a valid discussion topic, bug, or feature request. |
 | Status: By Design | Described behavior that is expected. |
 | Status: Blocked | Development is blocked by another task or issue. |
+| Merge: Blocked | The pull request merge is blocked until project maintainers approve. |
 
 ### Assigning issues
 

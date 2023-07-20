@@ -17,16 +17,15 @@ If the contributor leaves the affiliated organization, the contributor will lose
 
 Contributors must ensure that the following criteria is met before a pull request (PR) can be merged:
 
-* All PR comments are resolved.
-* Approvals are dismissed when a new commit is pushed.
-* PR has a clear and concise title.
-* PR has a clear description explaining the fix or feature. 
-* The PR passes all status checks, including unit tests.
-* The code changes must have `<summary>` blocks for all public and protected types and members.
-* Author confirmed code changes were tested within the Unity Editor and on at least one XR device. This does not apply for changes that only change documentation or pipeline scripts.
-* The PR must have at least one approval from a contributor that has the write role. Some circumstances may require additional approvals.
+* Pull request approvals are dismissed when a new commit is pushed.
+* All pull request feedback and change requests are resolved.
+* The pull request has a clear and concise title, and a detailed description explaining the changes.
+* All status checks, including unit tests, pass successfully for the pull request.
+* Code changes must have `<summary>` blocks for all public and protected types and members.
+* The pull request author confirmed code changes were tested within the Unity Editor and on at least one XR device.
+* The pull request must have at least one approval from an assigned code owner. Some circumstances may require additional approvals.
 
-If any of these criteria are not met, block the pull request by adding the "Do Not Merge" label, and kindly explain your reasoning for blocking.
+If any of these criteria are not met, the pull request can not be merged. If  block the pull request by adding the "Do Not Merge" label, and kindly explain your reasoning for blocking.
 
 ## Additional considerations
 
@@ -37,14 +36,22 @@ The pull request author should also consider adding the following before a PR is
 * Visual updates should have screen shots or videos demonstrating the changes.
 * The code changes should have `<summary>` blocks for all types and members, even private and internal ones.
 
+## Build breaks and automation failures
+
+If a merged pull request breaks subsequent builds or automated tests, the author must fix the failed change as soon as possible, or risk having the change reverted.
+
+## Blocking pull requests
+
+There may be times when a pull request contains changes that need further consideration before approval. Such occurrence include, but not limited to, design and breaking changes.  In such cases, you should block the pull request by adding the "Merge: Blocked" label, and kindly explain your reasoning for blocking. Then notify the project's maintainers.
+
 ### Design changes
 
-The visual design of UX components must often go through some sort of design review before approved. As such, if a pull request contains an visual change to an existing component, and an application can't easily undo or turn off the change, a 3/4 majority of the project maintainers must approve the pull request.
+If a pull request contains visual changes that can't easily undone or turned off by an application, these pull requests must be blocked until the project maintainers review the change.
 
 ### Breaking changes
 
-A change is considered to be breaking if it alters an API signature or behavior in such a way to break applications built on a previous versions of the MRTK. If a pull request introduces a breaking change, a 3/4 majority of the project maintainers must approve the pull request.
+A change is considered to be breaking if it contains incompatible API and behavior changes, such that it will break applications built on a previous released versions of the MRTK package. If a pull request introduces a breaking change, these pull requests must be blocked.
 
-### Build breaks and automation failures
+### Unblocking a pull request
 
-If a merged pull request breaks subsequent builds or automated tests, the author must fix the failed change as soon as possible, or risk having the change reverted.
+Only project maintainers can unblock a pull request, and remove the "Merge: Blocked" label. To unblock a pull request, one maintainer from each affiliated organization must approve the pull request. Once this occurs, the "Merge: Blocked" label can be removed.

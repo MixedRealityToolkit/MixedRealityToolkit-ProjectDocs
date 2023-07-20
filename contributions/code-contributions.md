@@ -2,23 +2,23 @@
 
 MRTK3 is an open-source project under the BSD Clause license. Community contributions are welcome and appreciated, both for new features and bug fixes.
 
-Contributing to MRTK3 is easy. We recommend using the `MRTKDevTemplate` Unity project as a convenient development testbed, as it already includes all of the MRTK3 packages as local on-disk dependencies. [For more information, see the documentation on the MRTKDevTemplate project for more details on sample scenes and local on-disk dependencies.](getting-started/exploring-features/mrtk3-sample-scenes.md)
+Contributing to MRTK3 is easy. We recommend using the `MRTKDevTemplate` Unity project as a convenient development testbed, as it already includes all of the MRTK3 packages as local on-disk dependencies. [For more information, see the documentation on the MRTKDevTemplate project for more details on sample scenes and local on-disk dependencies.](https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/getting-started/exploring-features/mrtk3-sample-scenes)
 
 ## Contribution guide
 
 1. Fork the MRTK repository to your GitHub account.
 
-2. Clone your forked MRTK repository by following our guide on [starting from a template project](getting-started/setting-up/setup-new-project.md) Ensure you have the required tooling, especially the correct Unity version. To ensure you are on the right branch, clone using the command:
+2. Clone your forked MRTK repository by following our guide on [starting from a template project](https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/getting-started/setting-up/setup-new-project) Ensure you have the required tooling, especially the correct Unity version. To ensure you are on the right branch, clone using the command:
 
-```
-git clone --branch mrtk3 YOUR_GIT_URL
-```
+    ``
+    git clone --branch mrtk3 YOUR_GIT_URL
+    ``
 
 3. Create a new branch for your changes or fixes.
 
-```
-git checkout -b foobar_fix
-```
+    ``
+    git checkout -b foobar_fix
+    ``
 
 4. Open the `MRTKDevTemplate` template project located in `UnityProjects/MRTKDevTemplate`. You can add the project to your Unity Hub for easy access.
 
@@ -36,7 +36,7 @@ When making code changes, the contributor must update the in-code XML documentat
 
 ## Writing tests
 
-Tests are a critical part of ensuring MRTK is a reliable foundation for high-quality mixed reality applications. Any new features that are added should have unit tests to ensure their functionality remains correct as other changes are made to the codebase in the future. 
+Tests are a critical part of ensuring MRTK is a reliable foundation for high-quality mixed reality applications. Any new features that are added should have unit tests to ensure their functionality remains correct as other changes are made to the codebase in the future.
 
 To write unit tests, we recommend that you first take a look at the existing unit tests and learn how the MRTK test utilities and simulator are used to mock XR input. You can mock hand input, gaze, HMD position, and other basic input-related features. Here's some general advice for writing good unit tests:
 
@@ -56,12 +56,12 @@ If your tests are passing in-editor but fail in the CI run, you should run your 
 
 Use the `Tooling/Tests/run_playmode_tests.ps1` script to run tests locally in batch mode. You'll need to close your Unity editor to do so.
 
-```
-$ ./Tooling/Tests/run_playmode_tests.ps1
-```
+``
+./Tooling/Tests/run_playmode_tests.ps1
+``
 
 The script will generate output files in the `/out` folder, including both `.log` files and the test results `.xml`. You can filter which tests are run by passing a regular expression to the script. Custom Unity versions and project folder locations can also be provided as arguments.
 
-```
-$ ./Tooling/Tests/run_playmode_tests.ps1 -unityVersion 2021.3.5f1 -projectPath ../my/project/path
-```
+``
+./Tooling/Tests/run_playmode_tests.ps1 -unityVersion 2021.3.5f1 -projectPath ../my/project/path
+``
