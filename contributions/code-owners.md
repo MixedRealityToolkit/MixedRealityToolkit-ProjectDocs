@@ -6,7 +6,7 @@ Code owners are those contributors that maintain particular part of the project,
 
 Code owners are responsible for the code quality in the areas they own and are expected to:
 
-* Be an active contributor to the MRTK project.
+* Be an active contributor to the Project.
 * Provide high-quality reviews and feedback.
 * Help ensure issues or bugs in the owned areas are prioritized appropriately and addressed in a timely manner.
 * Abide by the Mixed Reality Toolkit's [code of conduct](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/CODE-OF-CONDUCT.md) and [trademark policy](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/TRADEMARKS.md).
@@ -18,7 +18,7 @@ Any project [Maintainer](../CONTRIBUTING.md#maintainers) can approve additions t
 * Abide by the Mixed Reality Toolkit's [code of conduct](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/CODE-OF-CONDUCT.md) and [trademark policy](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/TRADEMARKS.md).
 * Be already acting as an owner of the area being assigned, by providing high-quality reviews and feedback.
 * Has submitted non-trivial changes to the area being assigned.
-* Having participated in the MRTK project in the last 90 days.
+* Having participated in the Project in the last 90 days.
 
 ## Removal of a code owner
 

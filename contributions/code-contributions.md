@@ -1,17 +1,17 @@
 # Code Contributions
 
-MRTK3 is an open-source project under the BSD Clause license. Community contributions are welcome and appreciated, both for new features and bug fixes.
+This project is an open-source project under the BSD 3-Clause license. Community contributions are welcome and appreciated, both for new features and bug fixes.
 
-Contributing to MRTK3 is easy. We recommend using the `MRTKDevTemplate` Unity project as a convenient development testbed, as it already includes all of the MRTK3 packages as local on-disk dependencies. [For more information, see the documentation on the MRTKDevTemplate project for more details on sample scenes and local on-disk dependencies.](https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/getting-started/exploring-features/mrtk3-sample-scenes)
+Contributing to this project is easy. We recommend using the `MRTKDevTemplate` Unity project as a convenient development testbed, as it already includes all of the Project packages as local on-disk dependencies. [For more information, see the documentation on the MRTKDevTemplate project for more details on sample scenes and local on-disk dependencies.](https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/getting-started/exploring-features/mrtk3-sample-scenes)
 
 ## Contribution guide
 
-1. Fork the MRTK repository to your GitHub account.
+1. Fork the Project repository to your GitHub account.
 
-2. Clone your forked MRTK repository by following our guide on [starting from a template project](https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/getting-started/setting-up/setup-new-project) Ensure you have the required tooling, especially the correct Unity version. To ensure you are on the right branch, clone using the command:
+2. Clone your forked Project repository by following our guide on [starting from a template project](https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/getting-started/setting-up/setup-new-project) Ensure you have the required tooling, especially the correct Unity version. To ensure you are on the right branch, clone using the command:
 
     ``
-    git clone --branch mrtk3 YOUR_GIT_URL
+    git clone --branch main YOUR_GIT_URL
     ``
 
 3. Create a new branch for your changes or fixes.
@@ -24,21 +24,21 @@ Contributing to MRTK3 is easy. We recommend using the `MRTKDevTemplate` Unity pr
 
 5. Make your desired changes and create unit tests that ensure your changes work as expected. Make sure to test across in-editor and deployed to device. Commit your changes to your branch. Publish your branch to your fork upstream.
 
-6. Open a pull request on the MRTK repo, targeting the `mrtk3` branch. Make sure to accurately describe the changes you've made, and apply relevant labels to your pull request for better categorization and triage. If you're a new contributor to MRTK, you may need to sign our contribution agreement.
+6. Open a pull request on the Project repo, targeting the `main` branch. Make sure to accurately describe the changes you've made, and apply relevant labels to your pull request for better categorization and triage. If you're a new contributor to the Project, you may need to sign our contribution agreement.
 
 7. Address any fixes requested by the community or the maintenance team, and merge your PR after approval.
 
 ## Documenting code
 
-Anyone making code changes must make sure that documentation is updated to reflect their changes. If individuals make changes that render the MRTK documentation invalid, it is their responsibility to submit documentation updates and ensure that the changes are merged into the public documentation prior to the feature being completed.
+Anyone making code changes must make sure that documentation is updated to reflect their changes. If individuals make changes that render the Project documentation invalid, it is their responsibility to submit documentation updates and ensure that the changes are merged into the public documentation prior to the feature being completed.
 
 When making code changes, the contributor must update the in-code XML documentation tags. At a bare minimum, types and their members must have a `<summary>` tag clearly explaining the type and their members. These tags are used when generating API reference documentation. So it is critical that any new public or protected type or member have a `<summary>` block. Also, functions should have all parameters and return values documented using the appropriate tags. For more information on in-code documentation tags, please see [Recommended XML tags for C# documentation comments](https://learn.microsoft.com/dotnet/csharp/language-reference/xmldoc/recommended-tags).
 
 ## Writing tests
 
-Tests are a critical part of ensuring MRTK is a reliable foundation for high-quality mixed reality applications. Any new features that are added should have unit tests to ensure their functionality remains correct as other changes are made to the codebase in the future.
+Tests are a critical part of ensuring the Project is a reliable foundation for high-quality mixed reality applications. Any new features that are added should have unit tests to ensure their functionality remains correct as other changes are made to the codebase in the future.
 
-To write unit tests, we recommend that you first take a look at the existing unit tests and learn how the MRTK test utilities and simulator are used to mock XR input. You can mock hand input, gaze, HMD position, and other basic input-related features. Here's some general advice for writing good unit tests:
+To write unit tests, we recommend that you first take a look at the existing unit tests and learn how the Project test utilities and simulator are used to mock XR input. You can mock hand input, gaze, HMD position, and other basic input-related features. Here's some general advice for writing good unit tests:
 
 - Try to write more granular tests that evaluate smaller pieces of functionality, rather than larger monolithic tests. More granular unit tests allow maintainers to see which specific feature has been broken. More general end-to-end functionality tests are also appreciated, but ensure that each smaller part of your feature is well-tested to begin with.
 - Make sure your test (and your feature) doesn't make any assumptions about the orientation or location of the user. Your tests and features should work at any arbitrary offset or rotation from the world origin.
