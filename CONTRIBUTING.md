@@ -15,13 +15,11 @@ Contributors must also follow the procedures outlined in the following sections:
 
 ### GitHub roles
 
-Contributors may have one for the following GitHub roles:
+Project roles are assigned by Maintainers via procedures outlined in the [GOVERNANCE.md](../GOVERNANCE.md) fileContributors may have one for the following roles:
 
 * **Read** Read and clone repositories. Open and comment on issues and pull requests.
 * **Triage** Read permissions plus manage issues and pull requests.
 * **Write** Triage permissions plus read, clone and push to repositories.
-
-Roles are assigned by Maintainers via procedures outlined in the [GOVERNANCE.md](../GOVERNANCE.md) file.
 
 ### The write role
 
