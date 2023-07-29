@@ -2,7 +2,7 @@
 
 This project is an open-source project under the BSD 3-Clause license. Community contributions are welcome and appreciated, both for new features and bug fixes.
 
-Contributing to this project is easy. We recommend using the `MRTKDevTemplate` Unity project as a convenient development testbed, as it already includes all of the Project packages as local on-disk dependencies. [For more information, see the documentation on the MRTKDevTemplate project for more details on sample scenes and local on-disk dependencies.](https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/getting-started/exploring-features/mrtk3-sample-scenes)
+Contributing to this project is easy. We recommend using the `MRTKDevTemplate` Unity project as a convenient development testbed, as it already includes all of the Project packages as local on-disk dependencies. See [Exploring MRTK3 sample scenes](https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/getting-started/exploring-features/mrtk3-sample-scenes) for more information on how to use this Unity project.
 
 ## Contribution guide
 
