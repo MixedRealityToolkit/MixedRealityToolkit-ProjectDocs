@@ -36,10 +36,10 @@ A release can be made to the Project's [releases](https://github.com/MixedRealit
 
 1. Create release notes using [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 2. Create UPM package.
-3. Verify that the UPM package is in a good and stable condition.
+3. Verify that the UPM package is in stable condition and has no release blocking issues.
 4. Create ZIP file containing source code.
 5. Present changelog and release candidate files to Project Maintainers.
-6. Project Maintainers must agree to a release by following the decision making rules in the [GOVERNANCE.md](../GOVERNANCE.md) file.
+6. Project Maintainers then must agree to the release.
 7. Once approved, add a `git` tag to the commit hash being released, following the format [package-postfix]-vMAJOR.MINOR.PATCH. For example, core-v3.0.1 or input-v3.2.0.
 8. Finally, the release notes, UPM package, and source code are posted under project's [releases](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases) page.
 
