@@ -1,6 +1,6 @@
 # Opening and Assessing Issues
 
-All Contributors can open issues using the templates available for a [bug](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Bug&template=bug-report.md&title=), [document issue](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Documentation&template=documentation-issue.md&title=), [feature request](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Documentation&template=documentation-issue.md&title=), and [security vulnerability](https://github.com/microsoft/MixedRealityToolkit-Unity/security/advisories/new). Consider the following when opening a new issue:
+All Contributors can open issues using the templates available for a [bug](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Bug&template=bug-report.md&title=), [document issue](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Documentation&template=documentation-issue.md&title=), [feature request](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Documentation&template=documentation-issue.md&title=), and [security vulnerability](https://github.com/microsoft/MixedRealityToolkit-Unity/security/advisories/new). Consider the following when opening a new Project issue:
 
 * First check that there isn't already an issue tracking the problem or feature.
 * Create a title that is concise, but provides enough details to quickly give a basic understanding of the issue.
@@ -31,6 +31,10 @@ While looking at new issues, you should quickly determine the validity of the is
 
 In some cases, an issue may not be a valid discussion topic, bug, or feature request. In such cases, add the "Status: Invalid" label, add a comment politely explaining your reasoning, and close the issue as not planned.
 
+### Project appeals
+
+Project appeals are discussed in section 2.2 of the [GOVERNANCE.md](../GOVERNANCE.md) file. These issues can only be triaged by the Project Maintainers, and should be labeled with "Type: Appeal".
+
 ## Continue assessment
 
 After verifying that basic information is present, start parsing the content. Verify that the issue includes a clear description of the problem. If it does not, politely ask the author to provide additional feedback and add the "Needs: Author Feedback" label.
@@ -41,6 +45,7 @@ It's also useful to apply labels to issues during triage. Consider adding the fo
 
 | Label  | Description |
 |--------|------------ |
+| Type: Appeal | A Project appeal that needs the attention of the Project Maintainers |
 | Type: Bug | A problem with an existing feature that can be fixed with the next patched release. |
 | Type: Feature Request |  A request for a new feature that can be included with the next minor version release. |
 | Type: Breaking Change | A change that contains incompatible API or behavior changes from an older package version. The fix for this issue must be included with the next major version release. |

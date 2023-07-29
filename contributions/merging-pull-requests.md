@@ -34,7 +34,7 @@ If a merged pull request breaks subsequent builds or automated tests, the author
 
 ## Blocking pull requests
 
-There may be times when a pull request contains changes that need further consideration before approval. Such occurrence include, but not limited to, design and breaking changes.  In such cases, you should block the pull request by adding the "Merge: Blocked" label, and kindly explain your reasoning for blocking. Then notify the Project's Maintainers.
+There may be times when a pull request contains changes that need further consideration before approval. Such occurrences include, but not limited to, design and breaking changes.  In such cases, you should block the pull request by adding the "Merge: Blocked" label, and kindly explain your reasoning for blocking. Then notify the Project's Maintainers.
 
 ### Design changes
 

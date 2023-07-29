@@ -14,13 +14,13 @@ To help identify specific packages and their versions, the Project provides an "
 
 ## Process of updating versions
 
-Package versioning is managed by the project Maintainers. During a pull request into the `main` branch, Maintainers should decide if package versions need to change. Maintainers should consider the following questions, and then if needed, request that the pull request author update package versions.
+Package versioning is managed by the Project Maintainers. During pull request reviews, Maintainers should decide if package versions need to be changed. Maintainers should consider the following questions, and then if needed, request that the pull request author update package versions.
 
-> During this time Maintainers should be aware of the released packages published to the project's [releases page](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases).
+> During this time Maintainers should be aware of the released packages published to the Project's [releases](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases) page.
 
 ### Is this a breaking change?
 
-Follow the rules outlined at [Breaking changes](merging-pull-requests.md#breaking-changes). If this is breaking change, the package's major version should be incremented from the latest released major version of the package. For example, if the package's latest release was v3.4.1, the new version should be v4.0.0.
+Follow the rules outlined under the [Breaking changes](merging-pull-requests.md#breaking-changes) section. If this is breaking change, the package's major version should be incremented from the latest released major version of the package. For example, if the package's latest release was v3.4.1, the new version should be v4.0.0.
 
 ### Is this new functionality?
 
@@ -32,15 +32,15 @@ If the change only contains backward compatible bug fixes, the package's patch v
 
 ## Package release process
 
-A release can be made to the Project's [releases](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases) page by following this process:
+A release can be made to the Project's [releases](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases) page by using the following process:
 
 1. Create release notes using [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 2. Create UPM package.
-3. Verify that the UPM package good and stable condition.
+3. Verify that the UPM package is in a good and stable condition.
 4. Create ZIP file containing source code.
-5. Present changelog and release candidate files to project maintainers.
-6. Project maintainers must agree to releasing the package by following the decision making rules in the [GOVERNANCE.md](../GOVERNANCE.md) file.
-7. Once approved, add a `git` tag to the commit being released, following the format [package-postfix]-vMAJOR.MINOR.PATCH. For example, core-v3.0.1 or input-v3.2.0.
-8. Finally, the release notes, UPM package, and source code are then posted under project's [releases](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases) page.
+5. Present changelog and release candidate files to Project Maintainers.
+6. Project Maintainers must agree to a release by following the decision making rules in the [GOVERNANCE.md](../GOVERNANCE.md) file.
+7. Once approved, add a `git` tag to the commit hash being released, following the format [package-postfix]-vMAJOR.MINOR.PATCH. For example, core-v3.0.1 or input-v3.2.0.
+8. Finally, the release notes, UPM package, and source code are posted under project's [releases](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases) page.
 
-This process only applies when releasing to the Project's [releases](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases) page. This means affiliate organizations are permitted to release versions of Project packages via other mechanisms, outside of this repository.
+This process only applies when releasing to the Project's [releases](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases) page. This means Contributors are permitted to release versions of Project packages via other mechanisms, outside of this Project.
