@@ -4,7 +4,7 @@ This project welcomes contributions, suggestions, and feedback. All contribution
 
 ## Contributors
 
-Contributors must abide by the Mixed Reality Toolkit's [code of conduct](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/CODE-OF-CONDUCT.md) and [trademark policy](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/TRADEMARKS.md).
+Contributors must abide by the Organization's [code of conduct](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/CODE-OF-CONDUCT.md) and [trademark policy](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/TRADEMARKS.md).
 
 Contributors must also follow the procedures outlined in the following sections:
 
@@ -32,7 +32,7 @@ To obtain the **write** role, a contributor must meet several of the following r
 * Must have shown a consistent pattern of helpful, non-threatening, and friendly behavior towards other community members in the past.
 * Should have opened and successfully run medium to large PR’s in the past 6 months.
 * Should have participated in multiple code reviews of other PR’s, including those of other Maintainers and Contributors.
-* Should be active on Mixed Reality Toolkit community forums.
+* Should be active on the Project's community forums.
 
 ### The triage role
 
@@ -41,7 +41,7 @@ To obtain the **triage** role, a contributor must meet several of the following 
 * Must enable 2FA on your GitHub account
 * Must have read and accepted the contributor guidelines.
 * Must have shown a consistent pattern of helpful, non-threatening, and friendly behavior towards other community members in the past.
-* Should be active on Mixed Reality Toolkit community forums.
+* Should be active on the Project's community forums.
 
 ### The read role
 
@@ -53,11 +53,11 @@ Maintainers have the **maintain** role, which grants write permissions plus mana
 
 * Must enable 2FA on your GitHub account
 * Must have read and accepted the contributor guidelines in the [Contributors](#contributors) section.
-* Must be part of the one of the Mixed Reality Toolkit's steering committee [affiliated organizations](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/STEERING-COMMITTEE.md).
+* Must be part of the one of the Organization's [affiliated organizations](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/STEERING-COMMITTEE.md).
 * Must have shown a consistent pattern of helpful, non-threatening, and friendly behavior towards other community members in the past.
 * Should have opened and successfully run medium to large PR’s in the past 6 months.
 * Should have participated in multiple code reviews of other PR’s, including those of other Maintainers and Contributors.
-* Should be active on Mixed Reality Toolkit community forums.
+* Should be active on the Project's community forums.
 
 Maintainers are added and removed via procedures outlined in the [GOVERNANCE.md](./GOVERNANCE.md) file.
 
