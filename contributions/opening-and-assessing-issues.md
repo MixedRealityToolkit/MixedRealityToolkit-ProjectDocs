@@ -21,10 +21,10 @@ During triage, Contributors should look for issues with the "Needs: Triage" labe
 
 While looking at new issues, you should quickly determine the validity of the issue. Consider the following:
 
-* If the issue requests help using MRTK3 within a particular application scenario, convert the issue to a discussion topic. Then answer the question if possible. If it is not possible, keep the "Needs: Triage" label or add a "Needs: Organization Attention" label if the organization responsible is known.
+* If the issue requests help using the Project packages within a particular application scenario, convert the issue to a discussion topic. Then answer the question if possible. If it is not possible, keep the "Needs: Triage" label or add a "Needs: Organization Attention" label if the organization responsible is known.
 * If the issue doesn’t make appropriate use of an issue template, apply the "Needs: Template Info" label and request that the author provide the missing information.
-* If the issue doesn’t mention the MRTK version that was used, apply the "Needs: Version Info" label and request that the author provide the version number.
-* If the issue doesn’t mention the platforms that were used, apply the "Needs: Platform Info" label and request that the author provide the platform information. 
+* If the issue doesn’t mention the Project package version that was used, apply the "Needs: Version Info" label and request that the author provide the version number.
+* If the issue doesn’t mention the platforms that were used, apply the "Needs: Platform Info" label and request that the author provide the platform information.
 * If the issue doesn’t clearly describe steps to reproduce the issue, apply the "Needs: Repro Steps" label and request that the author provide the missing steps.
 
 ### Invalid issues
@@ -43,7 +43,7 @@ It's also useful to apply labels to issues during triage. Consider adding the fo
 |--------|------------ |
 | Type: Bug | A problem with an existing feature that can be fixed with the next patched release. |
 | Type: Feature Request |  A request for a new feature that can be included with the next minor version release. |
-| Type: Breaking Change | A change that contains incompatible API or behavior changes from an older MRTK version. The fix for this issue must be included with the next major version release. |
+| Type: Breaking Change | A change that contains incompatible API or behavior changes from an older package version. The fix for this issue must be included with the next major version release. |
 | Type: Design Change | A change that contains visual changes to UI components. |
 | Type: Release Blocker | A bug that should be fixed sometime before the next release. |
 | Type: Documentation | A documentation bug. Consider moving or copying issue to MicrosoftDocs/mixed-reality: Mixed Reality documentation (github.com). |
@@ -54,11 +54,11 @@ It's also useful to apply labels to issues during triage. Consider adding the fo
 | Needs: Issue Template | Missing some required information in the issue template. |
 | Needs: Version Info | Missing the version number in which the bug was reproduced. |
 | Needs: Platform Info | Missing the platforms which this bug was reproduced on. |
-| Needs: Verify on Latest | Needs to be verified on the latest version of the MRTK3 packages |
+| Needs: Verify on Latest | Needs to be verified on the latest version of the Project package |
 | Needs: Design Feedback | The a design team needs to provide feedback. |
 | Needs: [Org Name] Attention | The specified organization needs to review the issue. |
-| Package: [Package Name] | The MRTK package that is impacted by this issue. |
-| Area: [Area Name] | The MRTK area of the that is impacted by this issue. |
+| Package: [Package Name] | The Project package that is impacted by this issue. |
+| Area: [Area Name] | The Project area of the that is impacted by this issue. |
 | Status: Duplicate | The issue is a duplicate of another issue. The duplicate issue must be referenced in the comments. |
 | Status: PR Submitted | A fix for the issue has been submitted for review. |
 | Status: Fixed | A fix for the issue has been merged. |
@@ -83,26 +83,26 @@ An issue should not be labeled with "Type: Release Blocker" if the issue was kno
 
 #### Is this a bug or feature?
 
-Issues that clearly describe functionality behaving differently than intended, should be labeled as "Type: Bug." However, if the is issue is describing functionality that the MRTK was never designed for, consider adding the "Type: Feature Request" label.
+Project issues that clearly describe functionality behaving differently than intended should be labeled as "Type: Bug." However, if the Project issue is describing functionality that was never designed for, consider adding the "Type: Feature Request" label.
 
 #### Is there a known workaround?
 
-Clearly explain any known workarounds for the described issue. If a workaround is of low impact and results in no loss of functionality, the issue's priority should be considered low.
+Clearly explain any known workarounds for the described Project issue. If a workaround is of low impact and results in no loss of functionality, the issue's priority should be considered low.
 
 ## Assigning issues
 
-If you know who can fix the issue, then assign the issue to the Contributor or Contributors. However only assign an issue to Contributors who are able to act in a timely manner. The assigned Contributors are responsible for resolving the issue in a reasonable amount of time.
+If you know who can fix the Project issue, then assign it to a Contributor or Contributors. However only assign an issue to Contributors who are able to act in a timely manner. The assigned Contributors are responsible for resolving the issue in a reasonable amount of time.
 
-If it will take weeks for an individual to start work on the issue, consider leaving the assignees field blank. An unassigned issue will signal that it is available for other organizations or individuals to work on.
+If it will take weeks for an individual to start work on the Project issue, consider leaving the assignees field blank. An unassigned issue will signal that it is available for other organizations or Contributors to work on.
 
-If a particular organization must resolve the issue and it’s unclear what individual will do the work, use the "Needs: [Org Name] Attention" label and provide a comment explaining your reasoning.
+If a particular organization must resolve the issue and it’s unclear what Contributor will do the work, use the "Needs: [Org Name] Attention" label and provide comment explaining your reasoning.
 
 ## Milestone assignment
 
-Milestones should be used sparingly, since GitHub issues can only receive one milestone and affiliate organizations may have differing priorities or goals. Only assign a milestone if the milestone has a clear dependency on the issue.
+GitHub [milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones) should be used sparingly. Only assign a milestone if the milestone has a clear dependency on the issue.
 
 Before a new milestone can be created in the repository, the new milestone must be approved by the project Maintainers, following the decision making rules in the [GOVERNANCE.md](../GOVERNANCE.md) file.
 
 ### GitHub project assignments
 
-In place of assigning a milestone, consider assigning issues to a GitHub project. An issue can have multiple project assignments, and each maintainer can manage their own GitHub projects and the priorities within those projects.
+In place of assigning a milestone, consider assigning issues to a GitHub [project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects). An issue can have multiple project assignments, and each Project Maintainer can manage their own GitHub projects and the priorities within those projects.
