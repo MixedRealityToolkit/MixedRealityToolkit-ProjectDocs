@@ -1,28 +1,21 @@
 # Opening and Assessing Issues
 
-All contributors can open issues using the templates available for a [bug](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Bug&template=bug-report.md&title=), [document issue](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Documentation&template=documentation-issue.md&title=), [feature request](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Documentation&template=documentation-issue.md&title=), and [security vulnerability](https://github.com/microsoft/MixedRealityToolkit-Unity/security/advisories/new). Consider the following when opening a new issue:
+All Contributors can open issues using the templates available for a [bug](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Bug&template=bug-report.md&title=), [document issue](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Documentation&template=documentation-issue.md&title=), [feature request](https://github.com/microsoft/MixedRealityToolkit-Unity/issues/new?assignees=&labels=Documentation&template=documentation-issue.md&title=), and [security vulnerability](https://github.com/microsoft/MixedRealityToolkit-Unity/security/advisories/new). Consider the following when opening a new issue:
 
 * First check that there isn't already an issue tracking the problem or feature.
 * Create a title that is concise, but provides enough details to quickly give a basic understanding of the issue.
-* Write descriptions that provide as much as detail as possible to help contributors diagnosis the problem. Images or videos are a big plus for visual or UI bugs.
+* Write descriptions that provide as much as detail as possible to help Contributors diagnosis the problem. Images or videos are a big plus for visual or UI bugs.
 * Make sure to provide steps that can consistently reproduce the problem or bug.
 * Make sure to provide platform and version information. Such as device type, operating system, and Unity version.
-* Consider providing an example Unity project that has a isolated reproduction of the bug. This is extremely helpful to contributors fixing the issue.
+* Consider providing an example Unity project that has a isolated reproduction of the bug. This is extremely helpful to Contributors fixing the issue.
 
-## Obtaining the role
+## The role
 
-Contributors with the **triage** role can assist with issue assessment. A maintainer can assign this role to a contributor, as long as the contributor has demonstrated the following:
-
-* Must be part of the one of the Mixed Reality Toolkit's steering committee [affiliated organizations](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/STEERING-COMMITTEE.md).
-* Must have read and accepted the contributor guidelines.
-* Must have shown a consistent pattern of helpful, non-threatening, and friendly behavior towards other community members in the past.
-* Should be active on Mixed Reality Toolkit community forums.
-
-If the contributor leaves the affiliated organization, the contributor will lose the **triage** role.
+Contributors with the **triage** role can assist with issue assessment. 
 
 ## Assessing issues
 
-During triage, contributors should look for issues with the "Needs: Triage" label. This label will be applied to any new issue created in the project.
+During triage, Contributors should look for issues with the "Needs: Triage" label. This label will be applied to any new issue created in the project.
 
 ### Initial assessment
 
@@ -98,7 +91,7 @@ Clearly explain any known workarounds for the described issue. If a workaround i
 
 ## Assigning issues
 
-If you know who can fix the issue, then assign the issue to the contributor or contributors. However only assign an issue to contributors who are able to act in a timely manner. The assigned contributors are responsible for resolving the issue in a reasonable amount of time.
+If you know who can fix the issue, then assign the issue to the Contributor or Contributors. However only assign an issue to Contributors who are able to act in a timely manner. The assigned Contributors are responsible for resolving the issue in a reasonable amount of time.
 
 If it will take weeks for an individual to start work on the issue, consider leaving the assignees field blank. An unassigned issue will signal that it is available for other organizations or individuals to work on.
 
@@ -108,12 +101,8 @@ If a particular organization must resolve the issue and it’s unclear what indi
 
 Milestones should be used sparingly, since GitHub issues can only receive one milestone and affiliate organizations may have differing priorities or goals. Only assign a milestone if the milestone has a clear dependency on the issue.
 
-Before a new milestone can be created in the repository, the new milestone must be approved by a majority of the project's maintainers.
+Before a new milestone can be created in the repository, the new milestone must be approved by the project Maintainers, following the decision making rules in the [GOVERNANCE.md](../GOVERNANCE.md) file.
 
 ### GitHub project assignments
 
 In place of assigning a milestone, consider assigning issues to a GitHub project. An issue can have multiple project assignments, and each maintainer can manage their own GitHub projects and the priorities within those projects.
-
-### Creating new labels
-
-GitHub labels are useful for tracking issue or pull requests...

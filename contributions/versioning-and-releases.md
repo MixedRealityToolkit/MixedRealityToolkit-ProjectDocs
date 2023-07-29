@@ -14,9 +14,9 @@ To help identify specific packages and their versions, MRTK3 provides an "about"
 
 ## Process of updating versions
 
-Package versioning is managed by the project maintainers. During a pull request into the `main` branch, maintainers should decide if package versions need to change. Maintainers should consider the following questions, and then if needed, request that the pull request author update package versions.
+Package versioning is managed by the project Maintainers. During a pull request into the `main` branch, Maintainers should decide if package versions need to change. Maintainers should consider the following questions, and then if needed, request that the pull request author update package versions.
 
-> During this time maintainers should be aware of the released packages published to the project's [releases page](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases).
+> During this time Maintainers should be aware of the released packages published to the project's [releases page](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases).
 
 ### Is this a breaking change?
 
@@ -32,13 +32,15 @@ If the change only contains backward compatible bug fixes, the package's patch v
 
 ## Package release process
 
-A majority of project maintainers must agree to release a Mixed Reality Toolkit package to project's [releases page](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases). The process of releasing to this [page](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases) is the following:
+A release can be made to project's [releases page](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases) by following this process:
 
-1. Verify that the package is in stable condition.
-2. Create release notes using [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
-3. Create UPM package.
+1. Create release notes using [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+2. Create UPM package.
+3. Verify that the UPM package good and stable condition.
 4. Create ZIP file containing source code.
-5. Add a `git` tag to the commit being released, following the format [package-postfix]-vMAJOR.MINOR.PATCH. For example, core-v3.0.1 or input-v3.2.0.
-6. The release notes, UPM package, and source code are then posted under project's [releases page](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases).
+5. Present changelog and release candidate files to project maintainers.
+6. Project maintainers must agree to releasing the package by following the decision making rules in the [GOVERNANCE.md](../GOVERNANCE.md) file.
+7. Once approved, add a `git` tag to the commit being released, following the format [package-postfix]-vMAJOR.MINOR.PATCH. For example, core-v3.0.1 or input-v3.2.0.
+8. Finally, the release notes, UPM package, and source code are then posted under project's [releases](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases) page.
 
-This process only needs to be applied when releasing on the project's [releases](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases). This process does not limit the ability of releasing versions MRTK package via other mechanism outside of this repository. Any affiliate organizations can build and/or create release packages using their own mechanisms.
+This process only applies when releasing to the project's [releases](https://github.com/MixedRealityToolkit/MixedRealityToolkit-ProjectDocs/releases) page. This means affiliate organizations are permitted to release versions of MRTK packages via other mechanisms, outside of this repository.

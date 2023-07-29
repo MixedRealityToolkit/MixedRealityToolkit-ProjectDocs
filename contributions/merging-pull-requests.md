@@ -2,18 +2,9 @@
 
 All changes to the `main` branch must be done through a pull request process to ensure that the changes are reviewed and approved.
 
-## Obtaining the role
+## The role
 
-Contributors with the **write** GitHub role can approve pull requests. A maintainer can assign this role to a contributor, as long as the contributor has demonstrated the following:
-
-* Must be part of the one of the Mixed Reality Toolkit's steering committee [affiliated organizations](https://github.com/MixedRealityToolkit/MixedRealityToolkit-MVG/blob/main/org-docs/STEERING-COMMITTEE.md).
-* Must have read and accepted the contributor guidelines.
-* Must have shown a consistent pattern of helpful, non-threatening, and friendly behavior towards other community members in the past.
-* Should have opened and successfully run medium to large PR’s in the past 6 months.
-* Should have participated in multiple code reviews of other PR’s, including those of other maintainers and contributors.
-* Should be active on Mixed Reality Toolkit community forums.
-
-If the contributor leaves the affiliated organization, the contributor will lose the **write** GitHub role.
+Contributors with the **write** GitHub role can approve pull requests.
 
 ## Basic validation
 
@@ -25,7 +16,7 @@ Contributors must ensure that the following criteria are met before a pull reque
 * All status checks, including unit tests, pass successfully for the pull request.
 * Code changes must have XML documentation text (i.e.`<summary>`) for all public visible types and members. See [Compiler Warning (level 4) CS1591](https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-messages/cs1591) for more details.
 * The pull request author confirmed code changes were tested within the Unity Editor and on at least one XR device.
-* The pull request must have at least one approval from an assigned code owner. Some circumstances may require additional approvals.
+* The pull request must have at least one approval from an assigned [code owner](code-owners.md). Some circumstances may require additional approvals.
 
 If any of these criteria are not met, the pull request can not be merged. If  block the pull request by adding the "Do Not Merge" label, and kindly explain your reasoning for blocking.
 
@@ -44,11 +35,11 @@ If a merged pull request breaks subsequent builds or automated tests, the author
 
 ## Blocking pull requests
 
-There may be times when a pull request contains changes that need further consideration before approval. Such occurrence include, but not limited to, design and breaking changes.  In such cases, you should block the pull request by adding the "Merge: Blocked" label, and kindly explain your reasoning for blocking. Then notify the project's maintainers.
+There may be times when a pull request contains changes that need further consideration before approval. Such occurrence include, but not limited to, design and breaking changes.  In such cases, you should block the pull request by adding the "Merge: Blocked" label, and kindly explain your reasoning for blocking. Then notify the project's Maintainers.
 
 ### Design changes
 
-If a pull request contains visual changes to UI controls that can't be easily undone or turned off by an application developer, these pull requests must be blocked until the project maintainers review the change. Mark these changes with the "Type: Design Change" label.
+If a pull request contains visual changes to UI controls that can't be easily undone or turned off by an application developer, these pull requests must be blocked until the project Maintainers review the change. Mark these changes with the "Type: Design Change" label.
 
 ### Breaking changes
 
@@ -56,4 +47,4 @@ A change is considered to be breaking if it contains incompatible API or behavio
 
 ### Unblocking a pull request
 
-Only project maintainers can unblock a pull request, and remove the "Merge: Blocked" label. To unblock a pull request, one maintainer from each affiliated organization must approve the pull request. Once this occurs, the "Merge: Blocked" label can be removed, and pull request completed.
+Only project Maintainers can unblock a pull request, and remove the "Merge: Blocked" label. To unblock a pull request, Maintainers follow the decision making rules in the [GOVERNANCE.md](../GOVERNANCE.md) file.
