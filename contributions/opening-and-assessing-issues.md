@@ -49,30 +49,31 @@ It's also useful to apply labels to issues during triage. Consider adding the fo
 | Type: Bug | A problem with an existing feature that can be fixed with the next patched release. |
 | Type: Feature Request |  A request for a new feature that can be included with the next minor version release. |
 | Type: Breaking Change | A change that contains incompatible API or behavior changes from an older package version. The fix for this issue must be included with the next major version release. |
-| Type: Design Change | A change that contains visual changes to UI components. |
 | Type: Release Blocker | A bug that should be fixed sometime before the next release. |
-| Type: Documentation | A documentation bug. Consider moving or copying issue to MicrosoftDocs/mixed-reality: Mixed Reality documentation (github.com). |
-| Needed By: [Org Name] | The specified organization depends on this issue. |
-| Needs: Author Feedback | Needs additional information from the author. |
+| Type: Documentation | Issue for new or existing documentation. |
+| Type: Good First Issue | Issue that is good for newcomers. |
+| Needed By: [Org Name] | The specified affiliated organization depends on this issue. |
+| Needs: Author Feedback | Needs additional information from the issue author. |
 | Needs: Triage | Needs to be triaged. |
 | Needs: Repro | Missing clear or consistent reproduction steps. |
 | Needs: Issue Template | Missing some required information in the issue template. |
 | Needs: Version Info | Missing the version number in which the bug was reproduced. |
 | Needs: Platform Info | Missing the platforms which this bug was reproduced on. |
 | Needs: Verify on Latest | Needs to be verified on the latest version of the Project package |
-| Needs: Design Feedback | The a design team needs to provide feedback. |
-| Needs: [Org Name] Attention | The specified organization needs to review the issue. |
+| Needs: Design Feedback | A Project designer needs to provide feedback. |
+| Needs: [Org Name] Attention | The specified affiliated organization needs to review the issue. |
 | Package: [Package Name] | The Project package that is impacted by this issue. |
 | Area: [Area Name] | The Project area of the that is impacted by this issue. |
 | Status: Duplicate | The issue is a duplicate of another issue. The duplicate issue must be referenced in the comments. |
-| Status: PR Submitted | A fix for the issue has been submitted for review. |
+| Status: In Review | A fix for the issue has been submitted for review. |
 | Status: Fixed | A fix for the issue has been merged. |
 | Status: Answered | A discussion topic has been answered. |
 | Status: Won’t Fix | A valid problem that will not be fixed. |
 | Status: Invalid | Not a valid discussion topic, bug, or feature request. |
 | Status: By Design | Described behavior that is expected. |
+| Status: Help Wanted | Extra attention is needed to resolve the issue |
 | Status: Blocked | Development is blocked by another task or issue. |
-| Merge: Blocked | The pull request merge is blocked until project maintainers approve. |
+| Merge: Blocked | The pull request merge is blocked until Project Maintainers approve. |
 
 ### Determining impact
 
